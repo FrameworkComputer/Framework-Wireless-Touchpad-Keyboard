@@ -1,6 +1,6 @@
 # Framework Wireless Touchpad Keyboard
 
-Documentation for the PCB and other key modules in the Framework Wireless Touchpad Keyboard (available at https://frame.work/marketplace/mainboards).
+Documentation for the PCB and other key modules in the Framework Wireless Touchpad Keyboard (available at https://frame.work/products/framework-wireless-touchpad-keyboard).
 
 Features a 68.8 × 85.6mm precision touchpad with multi-touch gesture support and 1.5mm key travel for a responsive typing experience. Connect via wired, Bluetooth, or USB-A dongle, and switch between up to four wireless devices. Compatible with the USB-A Adapter Expansion Card for added flexibility.
 
