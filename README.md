@@ -6,32 +6,34 @@ Features a 68.8 × 85.6mm precision touchpad with multi-touch gesture support an
 
 Powered by Nordic’s ultra-low-power nRF54L20 wireless SoC. Open-source CAD design and firmware based on ZMK Firmware allow for endless mod potential. The control board is available for purchase separately with breakout pinouts designed for DIY keyboard builds and custom projects.
 
-TODO: Picture
+Note: This is preliminary information of the current prototype. Everythign is subject to change and more information will follow.
 
 ## License
 
 Framework Wireless Touchpad Keyboard © 2026 by Framework Computer Inc is licensed under CC BY 4.0.
 To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
 
-## Mainboard and Transfer Board PCB
+## Mechanical CAD
 
-2D drawings, 3D CAD, and the interface schemtiacs of the Battery to enable re-use.
+3D CAD of the keyboard and dongle: [FrameworkWirelessTouchpadKeyboard.stp](FrameworkWirelessTouchpadKeyboard.stp)
 
 ## Battery
 
-2D drawings, 3D CAD, and the pinout of the Battery to enable re-use.
+2D/3D CAD, and the pinout of the Battery to enable re-use:
+
+- TBD
 
 ## Touchpad
 
-Firmware configuration, 2D drawings, 3D CAD, and the pinout of the Touchpad to enable re-use.
+Firmware configuration and the pinout of the Touchpad to enable re-use:
 
-## USB-A Dongle
+- TBD
 
-2D drawings, 3D CAD, and the pinout of the dongle to enable re-use.
+## Keyboard and USB-A Adapter Expansion Card PCBs
 
-## USB-A Adapter Expansion Card
+Inteface schemtatics and pinout of the PCBs to enable re-use:
 
-2D drawings, 3D CAD, and the pinout of the dongle to enable re-use.
+- TBD
 
 ## Firmware
 
