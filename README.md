@@ -6,7 +6,7 @@ Features a 68.8 × 85.6mm precision touchpad with multi-touch gesture support an
 
 Powered by Nordic’s ultra-low-power nRF54L20 wireless SoC. Open-source CAD design and firmware based on ZMK Firmware allow for endless mod potential. The control board is available for purchase separately with breakout pinouts designed for DIY keyboard builds and custom projects.
 
-Note: This is preliminary information of the current prototype. Everythign is subject to change and more information will follow.
+Note: This is preliminary information of the current prototype. Everything is subject to change and more information will follow.
 
 ## License
 
