@@ -31,10 +31,10 @@ Firmware configuration and the pinout of the Touchpad to enable re-use:
 
 ## Keyboard and USB-A Adapter Expansion Card PCBs
 
-Inteface schemtatics and pinout of the PCBs to enable re-use:
+Interface schematics and pinout of the PCBs to enable re-use:
 
 - TBD
 
 ## Firmware
 
-Firmare will be based on Zephyr and available on GitHub.
+Firmware will be based on Zephyr and available on GitHub.
