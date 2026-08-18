@@ -6,6 +6,8 @@ Features a 68.8 × 85.6mm precision touchpad with multi-touch gesture support an
 
 Powered by Nordic’s ultra-low-power nRF54L20 wireless SoC. Open-source CAD design and firmware based on ZMK Firmware allow for endless mod potential. The control board is available for purchase separately with breakout pinouts designed for DIY keyboard builds and custom projects.
 
+Get notified when it becomes availble: https://frame.work/products/framework-wireless-touchpad-keyboard
+
 Note: This is preliminary information of the current prototype. Everything is subject to change and more information will follow.
 
 ## License
@@ -15,11 +17,17 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0
 
 ## Mechanical CAD
 
-3D CAD of the keyboard and dongle: [FrameworkWirelessTouchpadKeyboard.stp](FrameworkWirelessTouchpadKeyboard.stp)
+Keyboard CAD (outdated): [FrameworkWirelessTouchpadKeyboard.stp](FrameworkWirelessTouchpadKeyboard.stp)
+Control Board CAD: [ControlBoard.stp](/ControlBoard/ControlBoard.stp)
+Battery CAD: [Battery.stp](/Battery/Battery.stp)
+
+## Control Board
+
+We designed the Control Board to be a repurposable module for keyboard makers and DIYers.  We opened applications for a Control Board Developer Program to get pre-production modules in the hands of developers who can help test and provide feedback on it ahead of us making it available for sale.  We recently produced a batch of these modules, and we’ll be selecting developers to send them to shortly.  If you’re interested, get your application in by August 31st.
 
 ## Battery
 
-2D/3D CAD, and the pinout of the Battery to enable re-use:
+Pinout of the Battery to enable re-use:
 
 - TBD
 
@@ -35,6 +43,6 @@ Inteface schemtatics and pinout of the PCBs to enable re-use:
 
 - TBD
 
-## Firmware
+## Firmware and Bootloader
 
 Firmare will be based on Zephyr and available on GitHub.
