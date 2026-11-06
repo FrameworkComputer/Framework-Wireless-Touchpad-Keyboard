@@ -1,48 +1,61 @@
 # Framework Wireless Touchpad Keyboard
 
-Documentation for the PCB and other key modules in the Framework Wireless Touchpad Keyboard (available at https://frame.work/products/framework-wireless-touchpad-keyboard).
+Documentation for the PCB and other key modules in the [Framework Wireless Touchpad Keyboard](https://frame.work/products/framework-wireless-touchpad-keyboard).
 
-Features a 68.8 × 85.6mm precision touchpad with multi-touch gesture support and 1.5mm key travel for a responsive typing experience. Connect via wired, Bluetooth, or USB-A dongle, and switch between up to four wireless devices. Compatible with the USB-A Adapter Expansion Card for added flexibility.
+> [!NOTE]
+> This is preliminary information for the current prototype. Everything is subject to change and more information will follow.
 
-Powered by Nordic’s ultra-low-power nRF54LM20A wireless SoC. Open-source CAD design and firmware based on ZMK Firmware allow for endless mod potential. The control board is available for purchase separately with breakout pinouts designed for DIY keyboard builds and custom projects.
+## Overview
 
-Get notified when it becomes availble: https://frame.work/products/framework-wireless-touchpad-keyboard
+- 68.8 × 85.6 mm precision touchpad with multi-touch gesture support
+- 1.5 mm key travel
+- Wired, Bluetooth, or USB-A dongle connection, with switching between up to four wireless devices
+- Compatible with the USB-A Adapter Expansion Card
+- Nordic nRF54LM20A ultra-low-power wireless SoC
+- Open-source CAD design and firmware based on [ZMK Firmware](https://zmk.dev)
+- Control Board available for purchase separately, with breakout pinouts for DIY keyboard builds and custom projects
 
-Note: This is preliminary information of the current prototype. Everything is subject to change and more information will follow.
+Get notified when it becomes available: https://frame.work/products/framework-wireless-touchpad-keyboard
 
-## License
+## Repository layout
 
-Framework Wireless Touchpad Keyboard © 2026 by Framework Computer Inc is licensed under CC BY 4.0.
-To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
+| Path | Contents |
+| --- | --- |
+| [`ControlBoard/`](ControlBoard/) | Control Board CAD, schematic pages, pinout, and photos. Start with the [Control Board README](ControlBoard/README.md). |
+| [`Battery/`](Battery/) | Battery CAD |
+| [`FrameworkWirelessTouchpadKeyboard_dummy_20260605.step`](FrameworkWirelessTouchpadKeyboard_dummy_20260605.step) | Keyboard CAD |
+| [`LICENSE`](LICENSE) | CC BY 4.0 license text |
 
 ## Mechanical CAD
 
-Keyboard CAD (outdated): [FrameworkWirelessTouchpadKeyboard.stp](FrameworkWirelessTouchpadKeyboard.stp)
-Control Board CAD: [ControlBoard.stp](/ControlBoard/ControlBoard.stp)
-Battery CAD: [Battery.stp](/Battery/Battery.stp)
+| Part | File |
+| --- | --- |
+| Keyboard (dummy model, 2026-06-05) | [FrameworkWirelessTouchpadKeyboard_dummy_20260605.step](FrameworkWirelessTouchpadKeyboard_dummy_20260605.step) |
+| Control Board | [ControlBoard.stp](ControlBoard/ControlBoard.stp) |
+| Battery | [Battery.stp](Battery/Battery.stp) |
 
 ## Control Board
 
-We designed the Control Board to be a repurposable module for keyboard makers and DIYers.  We opened applications for a Control Board Developer Program to get pre-production modules in the hands of developers who can help test and provide feedback on it ahead of us making it available for sale.  We recently produced a batch of these modules, and we’ll be selecting developers to send them to shortly.  If you’re interested, get your application in by August 31st.
+We designed the Control Board to be a repurposable module for keyboard makers and DIYers. The Control Board Developer Program gets pre-production modules into the hands of developers who help test them and give feedback before the module goes on sale. Applications for the program closed on August 31, 2026.
+
+Photos, schematic pages, and pinout: [ControlBoard/README.md](ControlBoard/README.md)
 
 ## Battery
 
-Pinout of the Battery to enable re-use:
-
-- TBD
+Pinout of the Battery to enable re-use: not yet published.
 
 ## Touchpad
 
-Firmware configuration and the pinout of the Touchpad to enable re-use:
-
-- TBD
+Firmware configuration and pinout of the Touchpad to enable re-use: not yet published.
 
 ## Keyboard and USB-A Adapter Expansion Card PCBs
 
-Interface schematics and pinout of the PCBs to enable re-use:
-
-- TBD
+Interface schematics and pinout of the PCBs to enable re-use: not yet published.
 
 ## Firmware and Bootloader
 
-Firmware will be based on Zephyr and available on GitHub.
+Firmware will be based on Zephyr and available on GitHub. Status is tracked in [issue #2](https://github.com/FrameworkComputer/Framework-Wireless-Touchpad-Keyboard/issues/2).
+
+## License
+
+Framework Wireless Touchpad Keyboard © 2026 by Framework Computer Inc is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The full license text is in [LICENSE](LICENSE).
