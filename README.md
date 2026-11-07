@@ -42,7 +42,15 @@ Photos, schematic pages, and pinout: [ControlBoard/README.md](ControlBoard/READM
 
 ## Battery
 
-Pinout of the Battery to enable re-use: not yet published.
+The battery connects to the Control Board through a 3-pin Molex PicoBlade (1.25 mm pitch) connector, `JBAT` on the [power management schematic](ControlBoard/Schematic/PowerManagementUSBInput.pdf).
+
+| Pin | Net | Wire color |
+| --- | --- | --- |
+| 1 | `VBAT` (+) | Red |
+| 2 | `VBAT_NTC` (thermistor) | Yellow |
+| 3 | `GND` (−) | Black |
+
+To run without the battery's thermistor, tie `VBAT_NTC` to ground through a 10 kΩ resistor.
 
 ## Touchpad
 
