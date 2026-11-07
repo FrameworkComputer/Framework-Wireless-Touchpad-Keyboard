@@ -13,7 +13,7 @@ Documentation for the PCB and other key modules in the [Framework Wireless Touch
 - Compatible with the USB-A Adapter Expansion Card
 - Nordic nRF54LM20A ultra-low-power wireless SoC
 - Open-source CAD design and firmware based on [ZMK Firmware](https://zmk.dev)
-- Control Board available for purchase separately, with breakout pinouts for DIY keyboard builds and custom projects
+- Control Board will be available for purchase separately, with breakout pinouts for DIY keyboard builds and custom projects
 
 Get notified when it becomes available: https://frame.work/products/framework-wireless-touchpad-keyboard
 
@@ -36,13 +36,21 @@ Get notified when it becomes available: https://frame.work/products/framework-wi
 
 ## Control Board
 
-We designed the Control Board to be a repurposable module for keyboard makers and DIYers. The Control Board Developer Program gets pre-production modules into the hands of developers who help test them and give feedback before the module goes on sale. Applications for the program closed on August 31, 2026.
+We designed the Control Board to be a repurposable module for keyboard makers and DIYers. The Control Board Developer Program gets pre-production modules into the hands of developers who help test them and give feedback before the module goes on sale. The program is underway with a first group of developers.
 
 Photos, schematic pages, and pinout: [ControlBoard/README.md](ControlBoard/README.md)
 
 ## Battery
 
-Pinout of the Battery to enable re-use: not yet published.
+The battery connects to the Control Board through a 3-pin Molex PicoBlade (1.25 mm pitch) connector, `JBAT` on the [power management schematic](ControlBoard/Schematic/PowerManagementUSBInput.pdf).
+
+| Pin | Net | Wire color |
+| --- | --- | --- |
+| 1 | `VBAT` (+) | Red |
+| 2 | `VBAT_NTC` (thermistor) | Yellow |
+| 3 | `GND` (−) | Black |
+
+To run without the battery's thermistor, tie `VBAT_NTC` to ground through a 10 kΩ resistor.
 
 ## Touchpad
 
@@ -54,7 +62,7 @@ Interface schematics and pinout of the PCBs to enable re-use: not yet published.
 
 ## Firmware and Bootloader
 
-Firmware will be based on Zephyr and available on GitHub. Status is tracked in [issue #2](https://github.com/FrameworkComputer/Framework-Wireless-Touchpad-Keyboard/issues/2).
+The keyboard firmware is based on ZMK, which runs on Zephyr, and will be open sourced on GitHub. Zephyr board support for the keyboard is open as [FrameworkComputer/zephyr#2](https://github.com/FrameworkComputer/zephyr/pull/2).
 
 ## License
 
