@@ -2,6 +2,9 @@
 
 The keyboard uses a 1200 mAh lithium-ion battery. It plugs into `JBAT` on the Control Board.
 
+> [!WARNING]
+> Shorting the battery can cause fire or burns. Disconnect the battery and USB cable before working on the board. Never let bare battery wires touch each other or metal. Do not open, crush, puncture, or heat the battery. Stop using it if it is swollen or damaged. Modifying the battery or its wiring is at your own risk.
+
 > [!NOTE]
 > This is preliminary information for the current prototype. Everything is subject to change.
 
@@ -34,4 +37,4 @@ For pre-crimped leads, see Molex series 214921.
 
 If you use a different battery, check its pin order against this table before you plug it in.
 
-`VBAT_NTC` goes to the `NTC` pin of the nPM1300 PMIC (`U2`). To run without the battery's thermistor, tie `VBAT_NTC` to ground through a 10 kΩ resistor.
+`VBAT_NTC` goes to the `NTC` pin of the nPM1300 PMIC (`U2`). To run without the battery's thermistor, tie `VBAT_NTC` to ground through a 10 kΩ resistor. With the resistor in place, the charger can't sense the battery temperature, so it won't stop charging if the battery gets too hot or too cold.

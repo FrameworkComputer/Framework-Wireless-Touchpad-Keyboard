@@ -42,6 +42,9 @@ Photos, schematic pages, and pinout: [ControlBoard/README.md](ControlBoard/READM
 
 ## Battery
 
+> [!WARNING]
+> Shorting the battery can cause fire or burns. Disconnect the battery and USB cable before working on the board. Never let bare battery wires touch each other or metal. Do not open, crush, puncture, or heat the battery. Stop using it if it is swollen or damaged. Modifying the battery or its wiring is at your own risk.
+
 The battery connects to the Control Board through a 3-pin Molex PicoBlade (1.25 mm pitch) connector, `JBAT` on the [power management schematic](ControlBoard/Schematic/PowerManagementUSBInput.pdf).
 
 | Pin | Net | Wire color |
@@ -51,6 +54,7 @@ The battery connects to the Control Board through a 3-pin Molex PicoBlade (1.25 
 | 3 | `GND` (−) | Black |
 
 To run without the battery's thermistor, tie `VBAT_NTC` to ground through a 10 kΩ resistor.
+With the resistor in place, the charger can't sense the battery temperature, so it won't stop charging if the battery gets too hot or too cold.
 
 Connector part numbers and mating parts: [Battery/README.md](Battery/README.md)
 
