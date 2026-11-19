@@ -22,7 +22,7 @@ Get notified when it becomes available: https://frame.work/products/framework-wi
 | Path | Contents |
 | --- | --- |
 | [`ControlBoard/`](ControlBoard/) | Control Board CAD, schematic pages, pinout, and photos. Start with the [Control Board README](ControlBoard/README.md). |
-| [`Battery/`](Battery/) | Battery CAD |
+| [`Battery/`](Battery/) | Battery CAD, connector part numbers, and pinout. Start with the [Battery README](Battery/README.md). |
 | [`FrameworkWirelessTouchpadKeyboard_dummy_20260605.step`](FrameworkWirelessTouchpadKeyboard_dummy_20260605.step) | Keyboard CAD |
 | [`LICENSE`](LICENSE) | CC BY 4.0 license text |
 
@@ -51,6 +51,8 @@ The battery connects to the Control Board through a 3-pin Molex PicoBlade (1.25 
 | 3 | `GND` (−) | Black |
 
 To run without the battery's thermistor, tie `VBAT_NTC` to ground through a 10 kΩ resistor.
+
+Connector part numbers and mating parts: [Battery/README.md](Battery/README.md)
 
 ## Touchpad
 
